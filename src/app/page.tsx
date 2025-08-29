@@ -210,22 +210,9 @@ export default function Home() {
       {/* Projects Section */}
       <section id="projects" className="relative z-10 py-20 px-6">
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-8">
-            <a href="https://getrankly.io" target="_blank" rel="noopener noreferrer" className="block">
-              <div className="backdrop-blur-xl bg-white/5 border border-cyan-500/20 rounded-2xl p-6 hover:bg-white/10 hover:border-cyan-400/40 transition-all duration-300 group fade-in-left tracer-border cursor-pointer h-full">
-                <div className="h-2 w-16 bg-gradient-to-r from-cyan-400 to-green-400 rounded-full mb-4 group-hover:w-24 transition-all"></div>
-                <h4 className="text-xl font-bold mb-4 text-cyan-400 group-hover:text-cyan-300 transition-colors">GetRankly.io</h4>
-                <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                  SEO ranking and analytics platform helping businesses track their search performance and optimize their online presence.
-                </p>
-                <span className="text-cyan-400 hover:text-cyan-300 transition-colors text-sm font-medium">
-                  View Project →
-                </span>
-              </div>
-            </a>
-            
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <a href="https://alvsys.com" target="_blank" rel="noopener noreferrer" className="block">
-              <div className="backdrop-blur-xl bg-white/5 border border-cyan-500/20 rounded-2xl p-6 hover:bg-white/10 hover:border-cyan-400/40 transition-all duration-300 group fade-in-up tracer-border cursor-pointer h-full">
+              <div className="backdrop-blur-xl bg-white/5 border border-cyan-500/20 rounded-2xl p-6 hover:bg-white/10 hover:border-cyan-400/40 transition-all duration-300 group fade-in-left tracer-border cursor-pointer h-full">
                 <div className="h-2 w-16 bg-gradient-to-r from-green-400 to-blue-400 rounded-full mb-4 group-hover:w-24 transition-all"></div>
                 <h4 className="text-xl font-bold mb-4 text-green-400 group-hover:text-green-300 transition-colors">Alvsys.com</h4>
                 <p className="text-gray-300 mb-4 text-sm leading-relaxed">
