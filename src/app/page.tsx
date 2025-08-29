@@ -273,7 +273,7 @@ export default function Home() {
               Ready to Collaborate?
             </h3>
             <p className="text-lg text-gray-300 mb-8">
-              Let's discuss how I can help bring your ideas to life
+              Let&apos;s discuss how I can help bring your ideas to life
             </p>
             <button className="bg-gradient-to-r from-cyan-700 to-green-700 hover:from-cyan-600 hover:to-green-600 text-white font-bold px-12 py-4 rounded-2xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-cyan-700/25">
               Contact
