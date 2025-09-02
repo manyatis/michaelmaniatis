@@ -37,7 +37,7 @@ export default function Home() {
       <div className="fixed inset-0 backdrop-blur-[1px] bg-black/20"></div>
 
       {/* Hero Section */}
-      <section id="hero" className="relative z-10 pt-20 pb-32 px-6">
+      <section id="hero" className="relative z-10 pt-20 pb-8 px-6">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="mb-8 text-center fade-in-up">
             <span className="hero-text text-white">
@@ -57,7 +57,7 @@ export default function Home() {
           </div>
           
           {/* Work History Blurb */}
-          <div className="text-center mb-16 fade-in-up">
+          <div className="text-center mb-8 fade-in-up">
             <p className="text-gray-400 text-sm leading-relaxed max-w-2xl mx-auto">
               Solving Problems At Scale<br />
               Hands on Senior Engineering Manager
@@ -67,7 +67,7 @@ export default function Home() {
       </section>
 
       {/* Impact Statement */}
-      <section className="relative z-10 py-8 px-6">
+      <section className="relative z-10 py-2 px-6">
         <div className="max-w-4xl mx-auto text-center fade-in-up">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-400">
             Impacting millions of customers each day
@@ -76,9 +76,10 @@ export default function Home() {
       </section>
 
       {/* Skills Section */}
-      <section id="skills" className="relative z-10 py-16 px-6">
+      <section id="skills" className="relative z-10 py-8 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="backdrop-blur-xl bg-white/5 border border-cyan-500/20 rounded-3xl p-8 shadow-2xl scale-in tracer-border">
+            {/* All skills in one grid */}
             <div className="grid grid-cols-3 md:grid-cols-7 gap-6 items-center justify-items-center fade-in-up">
               
               {/* Distributed Systems */}
@@ -138,12 +139,7 @@ export default function Home() {
                 </div>
                 <span className="text-xs font-semibold text-center text-green-400">Node.js</span>
               </div>
-              
-            </div>
-            
-            {/* Second row of skills */}
-            <div className="grid grid-cols-3 md:grid-cols-7 gap-6 items-center justify-items-center mt-8 fade-in-up">
-              
+
               {/* Next.js */}
               <div className="flex flex-col items-center group hover:scale-110 transition-transform">
                 <div className="w-12 h-12 mb-2 rounded-xl bg-white flex items-center justify-center shadow-lg group-hover:shadow-gray-500/50 transition-shadow">
@@ -244,16 +240,18 @@ export default function Home() {
       {/* Contact Section */}
       <section id="contact" className="relative z-10 py-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="backdrop-blur-xl bg-white/5 border border-cyan-500/20 rounded-3xl p-12 shadow-2xl scale-in tracer-border">
+          <div className="backdrop-blur-xl bg-white/5 border border-cyan-500/20 rounded-3xl p-12 shadow-2xl">
             <h3 className="text-3xl font-bold mb-6 bg-gradient-to-r from-cyan-600 to-green-600 bg-clip-text text-transparent">
               Ready to Collaborate?
             </h3>
             <p className="text-lg text-gray-300 mb-8">
               Let&apos;s discuss how I can help bring your ideas to life
             </p>
-            <button className="bg-gradient-to-r from-cyan-700 to-green-700 hover:from-cyan-600 hover:to-green-600 text-white font-bold px-12 py-4 rounded-2xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-cyan-700/25">
-              Contact
-            </button>
+            <a href="mailto:mikejohnmaniatis@gmail.com">
+              <button className="bg-gradient-to-r from-cyan-700 to-green-700 hover:from-cyan-600 hover:to-green-600 text-white font-bold px-12 py-4 rounded-2xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-cyan-700/25">
+                Contact
+              </button>
+            </a>
           </div>
         </div>
       </section>
